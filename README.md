@@ -1,1 +1,65 @@
-# cd
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8"/>
+      <title>Olexiy CV</title>
+    </head>
+    <body>
+
+      <table>
+        <tr>
+          <td><img src="https://i.pinimg.com/736x/dd/f4/4e/ddf44e5f86dbbc840e7ced72e0fcf840.jpg" width="200" alt="Тут моє фото"></td>
+          <td><h1>Абрамов Олексій</h1>
+            <p><em>Я староста <strong> КНТ-211</strong></em></p>
+            <p>Я займаюся волейболом</p></td>
+        </tr>
+      </table>
+      <hr>
+      <h2>Мої контакти</h2>
+      <ul type="square"> 
+        <li><a href="https://instagram.com/_abramoy" target="_blank">https://instagram.com/_abramoy</a>></li>
+      </ul>
+      <h2>Мої хобі</h2>
+      <ol>
+        <li>Волейбол</li>
+        <li>Теніс</li>
+        <li>Автогонки</li>
+      </ol>
+
+      <h2>Навчальні заклади</h2>
+      <table border="2">
+        <tr>
+          <th>Навчальний заклад</th>
+          <th>Рік навчання</th>
+        </tr>
+        <tr>
+          <td>Вільшанський ліцей №1</td>
+          <td>2010 - 2021</td>
+        </tr>
+        <tr>
+          <td>Національний університет "Запорізька політехніка</td>
+          <td>2021 - !!!</td>
+        </tr>
+      </table>
+
+      <h2>Зв'язатися зі мною</h2>
+      <form action="/">
+        <label for="Ваше ім'я:">Ваше ім'я</label>
+        <input type="text" placeholder="Введіть ваше ім'я">
+
+          <br>
+
+        <label for="Ваша пошта:">Ваша пошта</label>
+        <input type="text" placeholder="Введіть email">
+
+          <br>
+          <input type="submit" value="Зв'язатися!">
+
+          <br>
+
+        <label for="text">Ваше повідомлення</label>
+        <br>
+        <textarea id="text" cols="5" rows="2"></textarea>
+      </form>
+    </body>
+</html>
